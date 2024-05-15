@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+# Desafio para vaga de Desenvolvedor Frontend na B2bit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de desafio para a vaga de Desenvolvedor Frontend na B2bit. O projeto foi desenvolvido utilizando Vite, React e Tailwind CSS.
 
-Currently, two official plugins are available:
+## Como Rodar o Projeto Localmente
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone o repositório:
 
-## Expanding the ESLint configuration
+    ```bash
+    git clone https://github.com/samirpegado/b2bit-front.git
+    ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. Navegue até o diretório do projeto:
 
-- Configure the top-level `parserOptions` property like this:
+    ```bash
+    cd b2bit-front/
+    ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+3. Inicie o servidor de desenvolvimento:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+    ```bash
+    npm run dev
+    ```
+
+Agora você pode acessar o projeto em seu navegador.
+
+## Testar em Produção
+
+Você também pode testar a versão em produção do projeto através do seguinte link:
+
+[https://b2bit-front.vercel.app/](https://b2bit-front.vercel.app/)
+
+## Dados para Login
+
+Login para testar algumas funcionalidades:
+
+- **Email:** cliente@youdrive.com
+- **Senha:** password
