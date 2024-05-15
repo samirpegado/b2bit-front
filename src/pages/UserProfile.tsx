@@ -45,7 +45,7 @@ const UserProfile = () => {
     <>
     <div className='h-screen bg-[#f1f5f9] flex flex-col '>
       <div className='w-full h-[70px] shadow-sm bg-white flex justify-center sm:justify-end items-center'>
-        <button className='mx-8 w-[272px] h-[44px] bg-[#02274F] rounded-lg font-body text-lg font-bold  text-[#FAFAFA]' onClick={logout}>Logout</button>
+        <button className='mx-8 w-[272px] h-[44px] bg-[#02274F] rounded-lg font-body text-lg font-bold  text-[#FAFAFA] logout' onClick={logout}>Logout</button>
       </div>
       <div className='flex h-full justify-center'>
         <div className='bg-white w-[356px] h-[315px] rounded-[18px] shadow-lg p-8 mt-32 mx-6 '>

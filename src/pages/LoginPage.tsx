@@ -43,16 +43,16 @@ const LoginPage: React.FC = () => {
                   E-mail
                 </label>
                 <input
-                  type="text"
-                  id="email"
-                  className="w-full h-[52.25px] bg-[#f1f1f1] rounded-lg px-4 font-body text-base text-gray-500 focus:outline-gray-200" 
+                  type="email"
+                  id="email"                 
+                  className="w-full h-[52.25px] bg-[#f1f1f1] rounded-lg px-4 font-body text-base text-gray-500 focus:outline-gray-200 email" 
                   placeholder="@gmail.com"
                   {...register('email')}
                 />
                 {errors.email && <p className="text-red-600">{errors.email.message}</p>}
               </div>
               <div>
-                <label htmlFor="password" className="font-body text-lg font-bold">
+                <label htmlFor="password" className="font-body text-lg font-bold password">
                   Password
                 </label>
                 <input
