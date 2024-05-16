@@ -34,7 +34,7 @@ const UserProfile = () => {
   }, [token]);
 
    if (!userData) {   
-    return <div>Nenhum usuário disponível</div>;
+    return <div>...</div>;
   }
 
   return (
