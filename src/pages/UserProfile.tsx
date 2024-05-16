@@ -11,7 +11,7 @@ const UserProfile = () => {
   const { logout, token } = useUser();
   const [userData, setUserData] = useState<UserProfile | null>(null);
 
-
+  // recebe os dados da api
   useEffect(() => {
     const fetchUserData = async () => {
       if (!token) return;
