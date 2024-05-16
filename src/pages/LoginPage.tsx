@@ -45,7 +45,7 @@ const LoginPage: React.FC = () => {
                 <input
                   type="email"
                   id="email"                 
-                  className="w-full h-[52.25px] bg-[#f1f1f1] rounded-lg px-4 font-body text-base text-gray-500 focus:outline-gray-200 email" 
+                  className="email w-full h-[52.25px] bg-[#f1f1f1] rounded-lg px-4 font-body text-base text-gray-500 focus:outline-gray-200 email" 
                   placeholder="@gmail.com"
                   {...register('email')}
                 />
@@ -59,18 +59,16 @@ const LoginPage: React.FC = () => {
                   type="password"
                   id="password"
                   placeholder="•••••••••••"
-                  className="w-full h-[52.25px] bg-[#f1f1f1] rounded-lg px-4 font-body text-base font-bold text-gray-500 focus:outline-gray-200"
+                  className="password w-full h-[52.25px] bg-[#f1f1f1] rounded-lg px-4 font-body text-base font-bold text-gray-500 focus:outline-gray-200"
                   {...register('password')}
                 />
                 {errors.password && <p className="text-red-600">{errors.password.message}</p>}
               </div>
               <div className='pt-4'>
-                <button type="submit" className="w-full h-[52.25px] bg-[#02274F] rounded-lg font-body text-lg font-bold  text-[#FAFAFA]">
+                <button type="submit" className="signin w-full h-[52.25px] bg-[#02274F] rounded-lg font-body text-lg font-bold  text-[#FAFAFA]">
                   Sign in
                 </button>
-              </div>
-            
-              
+              </div> 
             
             </form>
           </div>
